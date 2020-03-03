@@ -14,3 +14,4 @@ const TodoList = ({ todos }) => (
 );
 
 export default connect(state => ({ todos: getTodos(state) }))(TodoList);
+
